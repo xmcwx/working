@@ -43,7 +43,7 @@ This tool streamlines the process of identifying and reporting on vulnerable sys
 
 ## Overview
 
-Sheet2Report is a Go application designed to process Excel spreadsheets and generate comprehensive reports based on specific criteria. It's particularly useful for analyzing and summarizing data across multiple sheets, focusing on key metrics and vulnerable systems.
+Sheet2Report is a Go application designed to process Excel spreadsheets and generate comprehensive reports based on specific criteria. It's particularly useful for analyzing and summarizing data across multiple sheets, focusing on key metrics.
 
 ## Key Features
 
