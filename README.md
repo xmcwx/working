@@ -39,11 +39,11 @@ This tool streamlines the process of identifying and reporting on vulnerable sys
 
 
 
-# Sheet2ReportMaster
+# Sheet2Report
 
 ## Overview
 
-Sheet2ReportMaster is a Go application designed to process Excel spreadsheets and generate comprehensive reports based on specific criteria. It's particularly useful for analyzing and summarizing data across multiple sheets, focusing on key metrics and vulnerable systems.
+Sheet2Report is a Go application designed to process Excel spreadsheets and generate comprehensive reports based on specific criteria. It's particularly useful for analyzing and summarizing data across multiple sheets, focusing on key metrics and vulnerable systems.
 
 ## Key Features
 
@@ -85,4 +85,4 @@ Sheet2ReportMaster is a Go application designed to process Excel spreadsheets an
 - **Customizable**: Can be adapted to focus on different data points or criteria as needed.
 - **Scalable**: Capable of processing files with multiple sheets and large amounts of data.
 
-Sheet2ReportMaster streamlines the process of extracting, analyzing, and reporting on complex Excel data, making it an invaluable tool for IT professionals, auditors, and managers dealing with large-scale system information.
+Sheet2Report streamlines the process of extracting, analyzing, and reporting on complex Excel data, making it an invaluable tool for IT professionals, auditors, and managers dealing with large-scale system information.
