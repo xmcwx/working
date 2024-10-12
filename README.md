@@ -1,5 +1,3 @@
-# working
-
 # Master Excel Tool
 
 ## Overview
@@ -38,3 +36,53 @@ The Master Excel Tool is a powerful Go application designed to process multiple 
 - A detailed log file for process auditing and troubleshooting.
 
 This tool streamlines the process of identifying and reporting on vulnerable systems across multiple Excel spreadsheets, making it an invaluable asset for IT security professionals and system administrators.
+
+
+
+# Sheet2ReportMaster
+
+## Overview
+
+Sheet2ReportMaster is a Go application designed to process Excel spreadsheets and generate comprehensive reports based on specific criteria. It's particularly useful for analyzing and summarizing data across multiple sheets, focusing on key metrics and vulnerable systems.
+
+## Key Features
+
+- **Multi-Sheet Processing**: Analyzes data from multiple sheets within a single Excel file.
+- **Flexible Data Extraction**: Configurable to extract and process specific columns from each sheet.
+- **Vulnerability Detection**: Identifies systems with end-of-life operating systems or other specified vulnerabilities.
+- **Summary Generation**: Creates a summary sheet with key metrics and findings.
+- **Detailed Reporting**: Generates individual report sheets for each analyzed sheet, highlighting important data points.
+- **Data Aggregation**: Consolidates information across sheets for comprehensive analysis.
+- **Error Handling**: Robust error checking and logging for reliable operation.
+
+## How It Works
+
+1. The tool opens a specified Excel file and iterates through its sheets.
+2. For each sheet, it extracts relevant data based on predefined column mappings.
+3. It processes the data, identifying vulnerabilities and calculating key metrics.
+4. A summary sheet is created, providing an overview of findings across all sheets.
+5. Individual report sheets are generated for each analyzed sheet, containing detailed information.
+6. The tool handles various data formats and potential errors, ensuring reliable output.
+
+## Use Cases
+
+- **IT Asset Management**: Track and report on system vulnerabilities across different departments or locations.
+- **Compliance Reporting**: Generate reports on system statuses for regulatory compliance.
+- **Security Audits**: Quickly identify and summarize vulnerable systems within an organization.
+- **Resource Planning**: Analyze system distribution and identify areas needing upgrades or replacements.
+
+## Output
+
+- An updated Excel file containing:
+  - A summary sheet with aggregated data and key findings.
+  - Individual report sheets for each analyzed sheet, highlighting important information.
+  - The original data sheets, preserved for reference.
+
+## Benefits
+
+- **Time-Saving**: Automates the process of analyzing and reporting on large datasets.
+- **Consistency**: Ensures uniform analysis and reporting across all data sheets.
+- **Customizable**: Can be adapted to focus on different data points or criteria as needed.
+- **Scalable**: Capable of processing files with multiple sheets and large amounts of data.
+
+Sheet2ReportMaster streamlines the process of extracting, analyzing, and reporting on complex Excel data, making it an invaluable tool for IT professionals, auditors, and managers dealing with large-scale system information.
